@@ -71,4 +71,11 @@ public class Subscribedgroup_List
 		element = (AndroidElement) Initialsetup.wd.findElement(By.id("com.pebstone.teno:id/subscription_list_next_button"));
 		return element;
 	}
+	//page object for create group button on group list
+	public static AndroidElement create_new_group(AndroidDriver wd)
+	{
+		//element = (AndroidElement) Initialsetup.wd.findElement(By.id("com.pebstone.teno:id/buttonCreateNewGroup"));
+		element = (AndroidElement) Initialsetup.wd.findElement(By.id("com.pebstone.teno:id/baseFloatingActionButton"));
+		return element;
+	}
 }

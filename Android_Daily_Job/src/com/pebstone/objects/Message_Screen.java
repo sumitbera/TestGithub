@@ -77,5 +77,11 @@ public class Message_Screen
 		element = (AndroidElement) Initialsetup.wd.findElement(By.id("com.pebstone.teno:id/no_parents_students"));
 		return element;
 	}
+	//page object for no subscribers
+	public static AndroidElement wait_message(AndroidDriver wd)
+	{
+		element = (AndroidElement) Initialsetup.wd.findElement(By.id("com.pebstone.teno:id/parentStudentHear"));
+		return element;
+	}
 
 }

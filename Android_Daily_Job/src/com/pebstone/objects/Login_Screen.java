@@ -35,4 +35,10 @@ public static AndroidElement element = null;
 		element = (AndroidElement) Initialsetup.wd.findElement(By.xpath("//android.widget.ImageView[@index='2']"));
 		return element;
 	}
+	//Page object for username field
+	public static AndroidElement username(AndroidDriver wd)
+	{
+		element = (AndroidElement) Initialsetup.wd.findElement(By.id("com.pebstone.teno:id/nameTxt"));
+		return element;
+	}
 }
