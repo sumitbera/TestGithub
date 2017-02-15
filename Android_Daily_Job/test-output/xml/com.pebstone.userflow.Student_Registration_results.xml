@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Student subscribe group and receive Message"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="59.856">
+  <properties />
+  
+  
+            <testcase name="subscribe_group_student" time="6.085" classname="com.pebstone.userflow.Student_Registration" />
+                <testcase name="read_message_student" time="1.737" classname="com.pebstone.userflow.Student_Registration" />
+                <testcase name="student_otp_submission" time="8.211" classname="com.pebstone.userflow.Student_Registration" />
+                <testcase name="student_mobileno_confirmation" time="18.311" classname="com.pebstone.userflow.Student_Registration" />
+                <testcase name="student_personal_details" time="25.512" classname="com.pebstone.userflow.Student_Registration" />
+      
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Parent subscribe group and receive Message"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="71.884">
+  <properties />
+  
+  
+            <testcase name="subscribe_group_parent" time="4.128" classname="com.pebstone.userflow.Parent_Registration" />
+                <testcase name="read_message_parent" time="3.711" classname="com.pebstone.userflow.Parent_Registration" />
+                <testcase name="parent_personal_details" time="36.949" classname="com.pebstone.userflow.Parent_Registration" />
+                <testcase name="parent_otp_submission" time="8.309" classname="com.pebstone.userflow.Parent_Registration" />
+                <testcase name="parent_mobileno_confirmation" time="18.787" classname="com.pebstone.userflow.Parent_Registration" />
+      
+</testsuite>

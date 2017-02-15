@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Android" duration-ms="244503" started-at="2016-07-05T10:03:54Z" finished-at="2016-07-05T10:07:58Z">
+    <groups>
+    </groups>
+    <test name="Teacher create,subscribe group and Send Message" duration-ms="111086" started-at="2016-07-05T10:03:54Z" finished-at="2016-07-05T10:05:45Z">
+      <class name="com.pebstone.userflow.Teacher_Registration">
+        <test-method status="PASS" signature="teacher_mobileno_confirmation()[pri:1, instance:com.pebstone.userflow.Teacher_Registration@23ceabc1]" name="teacher_mobileno_confirmation" duration-ms="23986" started-at="2016-07-05T15:33:54Z" finished-at="2016-07-05T15:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacher_mobileno_confirmation -->
+        <test-method status="PASS" signature="teacher_otp_submission()[pri:2, instance:com.pebstone.userflow.Teacher_Registration@23ceabc1]" name="teacher_otp_submission" duration-ms="9441" started-at="2016-07-05T15:34:18Z" finished-at="2016-07-05T15:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacher_otp_submission -->
+        <test-method status="PASS" signature="teacher_personal_details()[pri:3, instance:com.pebstone.userflow.Teacher_Registration@23ceabc1]" name="teacher_personal_details" duration-ms="36808" started-at="2016-07-05T15:34:27Z" finished-at="2016-07-05T15:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacher_personal_details -->
+        <test-method status="PASS" signature="subscribe_group_teacher()[pri:4, instance:com.pebstone.userflow.Teacher_Registration@23ceabc1]" name="subscribe_group_teacher" duration-ms="8129" started-at="2016-07-05T15:35:04Z" finished-at="2016-07-05T15:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribe_group_teacher -->
+        <test-method status="PASS" signature="send_message_teacher()[pri:5, instance:com.pebstone.userflow.Teacher_Registration@23ceabc1]" name="send_message_teacher" duration-ms="19867" started-at="2016-07-05T15:35:12Z" finished-at="2016-07-05T15:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_message_teacher -->
+        <test-method status="PASS" signature="create_group_teacher()[pri:6, instance:com.pebstone.userflow.Teacher_Registration@23ceabc1]" name="create_group_teacher" duration-ms="11365" started-at="2016-07-05T15:35:32Z" finished-at="2016-07-05T15:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_group_teacher -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.pebstone.userflow.Teacher_Registration@23ceabc1]" name="tear_down" is-config="true" duration-ms="1479" started-at="2016-07-05T15:35:43Z" finished-at="2016-07-05T15:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.pebstone.userflow.Teacher_Registration -->
+    </test> <!-- Teacher create,subscribe group and Send Message -->
+    <test name="Parent subscribe group and receive Message" duration-ms="73530" started-at="2016-07-05T10:05:45Z" finished-at="2016-07-05T10:06:58Z">
+      <class name="com.pebstone.userflow.Parent_Registration">
+        <test-method status="PASS" signature="parent_mobileno_confirmation()[pri:1, instance:com.pebstone.userflow.Parent_Registration@2a2d45ba]" name="parent_mobileno_confirmation" duration-ms="18787" started-at="2016-07-05T15:35:45Z" finished-at="2016-07-05T15:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parent_mobileno_confirmation -->
+        <test-method status="PASS" signature="parent_otp_submission()[pri:2, instance:com.pebstone.userflow.Parent_Registration@2a2d45ba]" name="parent_otp_submission" duration-ms="8309" started-at="2016-07-05T15:36:04Z" finished-at="2016-07-05T15:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parent_otp_submission -->
+        <test-method status="PASS" signature="parent_personal_details()[pri:3, instance:com.pebstone.userflow.Parent_Registration@2a2d45ba]" name="parent_personal_details" duration-ms="36949" started-at="2016-07-05T15:36:12Z" finished-at="2016-07-05T15:36:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parent_personal_details -->
+        <test-method status="PASS" signature="subscribe_group_parent()[pri:4, instance:com.pebstone.userflow.Parent_Registration@2a2d45ba]" name="subscribe_group_parent" duration-ms="4128" started-at="2016-07-05T15:36:49Z" finished-at="2016-07-05T15:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribe_group_parent -->
+        <test-method status="PASS" signature="read_message_parent()[pri:5, instance:com.pebstone.userflow.Parent_Registration@2a2d45ba]" name="read_message_parent" duration-ms="3711" started-at="2016-07-05T15:36:53Z" finished-at="2016-07-05T15:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read_message_parent -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.pebstone.userflow.Parent_Registration@2a2d45ba]" name="tear_down" is-config="true" duration-ms="1644" started-at="2016-07-05T15:36:57Z" finished-at="2016-07-05T15:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.pebstone.userflow.Parent_Registration -->
+    </test> <!-- Parent subscribe group and receive Message -->
+    <test name="Student subscribe group and receive Message" duration-ms="59858" started-at="2016-07-05T10:06:58Z" finished-at="2016-07-05T10:07:58Z">
+      <class name="com.pebstone.userflow.Student_Registration">
+        <test-method status="PASS" signature="student_mobileno_confirmation()[pri:1, instance:com.pebstone.userflow.Student_Registration@1593948d]" name="student_mobileno_confirmation" duration-ms="18311" started-at="2016-07-05T15:36:58Z" finished-at="2016-07-05T15:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- student_mobileno_confirmation -->
+        <test-method status="PASS" signature="student_otp_submission()[pri:2, instance:com.pebstone.userflow.Student_Registration@1593948d]" name="student_otp_submission" duration-ms="8211" started-at="2016-07-05T15:37:17Z" finished-at="2016-07-05T15:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- student_otp_submission -->
+        <test-method status="PASS" signature="student_personal_details()[pri:3, instance:com.pebstone.userflow.Student_Registration@1593948d]" name="student_personal_details" duration-ms="25512" started-at="2016-07-05T15:37:25Z" finished-at="2016-07-05T15:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- student_personal_details -->
+        <test-method status="PASS" signature="read_message_student()[pri:4, instance:com.pebstone.userflow.Student_Registration@1593948d]" name="read_message_student" duration-ms="1737" started-at="2016-07-05T15:37:50Z" finished-at="2016-07-05T15:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read_message_student -->
+        <test-method status="PASS" signature="subscribe_group_student()[pri:5, instance:com.pebstone.userflow.Student_Registration@1593948d]" name="subscribe_group_student" duration-ms="6085" started-at="2016-07-05T15:37:52Z" finished-at="2016-07-05T15:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribe_group_student -->
+      </class> <!-- com.pebstone.userflow.Student_Registration -->
+    </test> <!-- Student subscribe group and receive Message -->
+  </suite> <!-- Android -->
+</testng-results>

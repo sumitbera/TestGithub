@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Work Flow]" parallel="none">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Teacher create,subscribe group and Send Message(failed)" parallel="none">
+    <classes>
+      <class name="com.pebstone.userflow.Teacher_Registration">
+        <methods>
+          <include name="subscribe_group_teacher"/>
+          <include name="send_message_teacher"/>
+          <include name="teacher_reg"/>
+          <include name="create_group_teacher"/>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- com.pebstone.userflow.Teacher_Registration -->
+      <class name="com.pebstone.userflow.Parent_Registration">
+        <methods>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- com.pebstone.userflow.Parent_Registration -->
+    </classes>
+  </test> <!-- Teacher create,subscribe group and Send Message(failed) -->
+  <test name="Parent subscribe group and receive Message(failed)" parallel="none">
+    <classes>
+      <class name="com.pebstone.userflow.Teacher_Registration">
+        <methods>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- com.pebstone.userflow.Teacher_Registration -->
+      <class name="com.pebstone.userflow.Parent_Registration">
+        <methods>
+          <include name="tear_down"/>
+          <include name="subscribe_group_parent"/>
+          <include name="read_message_parent"/>
+          <include name="parent_reg"/>
+        </methods>
+      </class> <!-- com.pebstone.userflow.Parent_Registration -->
+    </classes>
+  </test> <!-- Parent subscribe group and receive Message(failed) -->
+  <test name="Student subscribe group and receive Message(failed)" parallel="none">
+    <classes>
+      <class name="com.pebstone.userflow.Student_Registration">
+        <methods>
+          <include name="subscribe_group_student"/>
+          <include name="read_message_student"/>
+          <include name="student_reg"/>
+        </methods>
+      </class> <!-- com.pebstone.userflow.Student_Registration -->
+      <class name="com.pebstone.userflow.Teacher_Registration">
+        <methods>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- com.pebstone.userflow.Teacher_Registration -->
+      <class name="com.pebstone.userflow.Parent_Registration">
+        <methods>
+          <include name="tear_down"/>
+        </methods>
+      </class> <!-- com.pebstone.userflow.Parent_Registration -->
+    </classes>
+  </test> <!-- Student subscribe group and receive Message(failed) -->
+</suite> <!-- Failed suite [Work Flow] -->

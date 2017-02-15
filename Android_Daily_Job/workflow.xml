@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Android" verbose ="1" parallel="none">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>    
+   
+<test name="Teacher create,subscribe group and Send Message" preserve-order="true" parallel="none">
+   <classes>
+      <class name="com.pebstone.userflow.Teacher_Registration"/>
+    </classes> 
+   </test> <!-- Test -->
+
+<test name="Parent subscribe group and receive Message" preserve-order="true" parallel="none">
+   <classes>
+      <class name="com.pebstone.userflow.Parent_Registration"/>
+    </classes> 
+ </test> <!-- Test -->   
+     
+<test name="Student subscribe group and receive Message" preserve-order="true" parallel="none">
+   <classes>
+      <class name="com.pebstone.userflow.Student_Registration"/>
+    </classes> 
+ </test> <!-- Test --> 
+ 
+ </suite> <!-- Suite -->
