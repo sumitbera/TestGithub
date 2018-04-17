@@ -1,0 +1,227 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: sumit.bera@live.in"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16855646994,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenarioStart()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Scenario to verify my name after car selection",
+        "description": "",
+        "id": "to-test-the-car-selection-and-capture-app-crash;scenario-to-verify-my-name-after-car-selection",
+        "after": [
+          {
+            "result": {
+              "duration": 141133,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenarioFinishes()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 597593551,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on the home screen",
+            "match": {
+              "location": "StepDefinition.the_user_is_on_the_home_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1335255310,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user taps on Chrome icon",
+            "match": {
+              "location": "StepDefinition.user_taps_on_Chrome_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22999468311,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters their own name",
+            "match": {
+              "location": "StepDefinition.user_enters_their_own_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1895767288,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "selects their favourite car",
+            "match": {
+              "location": "StepDefinition.selects_their_favourite_car()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 819265440,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "tap on send me your name",
+            "match": {
+              "location": "StepDefinition.tap_on_send_me_your_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 768181410,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "your name and car is displayed",
+            "match": {
+              "location": "StepDefinition.your_name_and_car_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 384908,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenarioStart()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Scenario to verify expections and logs",
+        "description": "",
+        "id": "to-test-the-car-selection-and-capture-app-crash;scenario-to-verify-expections-and-logs",
+        "after": [
+          {
+            "result": {
+              "duration": 95971,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenarioFinishes()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 616298054,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user is on the home screen",
+            "match": {
+              "location": "StepDefinition.the_user_is_on_the_home_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6607384085,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters name in text field",
+            "match": {
+              "location": "StepDefinition.the_user_enters_name_in_text_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287619546,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click display text view",
+            "match": {
+              "location": "StepDefinition.click_display_text_view()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567405434,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "it should display visual message",
+            "match": {
+              "location": "StepDefinition.it_should_display_visual_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278896494,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on throw unhandled exception",
+            "match": {
+              "location": "StepDefinition.click_on_throw_unhandled_exception()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5222094260,
+              "error_message": "org.openqa.selenium.WebDriverException: Not yet implemented. Please help us: http://appium.io/get-involved.html (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nBuild info: version: \u00272.50.1\u0027, revision: \u0027d7fc91b29de65b790abb01f3ac5f7ea2191c88a7\u0027, time: \u00272016-01-29 11:11:26\u0027\nSystem info: host: \u0027Sumit-PC\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{app\u003dD:\\workspace\\MindValleyProject\\app\\testApp.apk, appPackage\u003dio.selendroid.testapp, networkConnectionEnabled\u003dtrue, warnings\u003d{}, databaseEnabled\u003dfalse, deviceName\u003dTA38501TF4, platform\u003dLINUX, appActivity\u003dio.selendroid.testapp.HomeScreenActivity, desired\u003d{app\u003dD:\\workspace\\MindValleyProject\\app\\testApp.apk, appPackage\u003dio.selendroid.testapp, appActivity\u003dio.selendroid.testapp.HomeScreenActivity, platformVersion\u003d6.0, browserName\u003d, platformName\u003dAndroid, deviceName\u003dTA38501TF4}, platformVersion\u003d6.0, webStorageEnabled\u003dfalse, locationContextEnabled\u003dfalse, browserName\u003d, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, platformName\u003dAndroid}]\nSession ID: ce7913d5-1a01-4d97-87ff-b1d95d7c5937\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:206)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1047)\r\n\tat com.mindvalley.app.pageObjects.HomeScreen.verifyCrashErrorMessage(HomeScreen.java:129)\r\n\tat com.mindvalley.app.stepDefination.StepDefinition.verify_the_app_crashes(StepDefinition.java:94)\r\n\tat ✽.Then verify the app crashes(src/main/feature/TestCase.feature:21)\r\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "verify the app crashes",
+            "match": {
+              "location": "StepDefinition.verify_the_app_crashes()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test the car selection and capture app crash",
+    "description": "",
+    "id": "to-test-the-car-selection-and-capture-app-crash",
+    "keyword": "Feature",
+    "uri": "src/main/feature/TestCase.feature"
+  }
+]
