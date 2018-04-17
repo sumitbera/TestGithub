@@ -1,0 +1,208 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: sumit.bera@live.in"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6678062513,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenarioStart()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login with invalid credentials anc check error message",
+        "description": "",
+        "id": "test-case-to-verify-successful-login-and-identify-main-dashboard-of-web-page;login-with-invalid-credentials-anc-check-error-message",
+        "after": [
+          {
+            "result": {
+              "duration": 55484,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenarioFinishes()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2601179675,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150996896,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters Invalid Username and Password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_Invalid_Username_and_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sumitbera31@gmail.com",
+                  "Test@123"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 451193690,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25190363,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "web page should display validation message",
+            "match": {
+              "location": "LoginStepDefinition.web_page_should_display_validation_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 146890,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenarioStart()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login with valid credentials and verify main page",
+        "description": "",
+        "id": "test-case-to-verify-successful-login-and-identify-main-dashboard-of-web-page;login-with-valid-credentials-and-verify-main-page",
+        "after": [
+          {
+            "result": {
+              "duration": 54843,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenarioFinishes()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2348847875,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157019710,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_valid_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sumitbera31@gmail.com",
+                  "Books@31"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318861775,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46195002,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "dashboard should be successfully",
+            "match": {
+              "location": "LoginStepDefinition.dashboard_should_be_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 579230835,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test case to verify successful login and identify main dashboard of web page",
+    "description": "",
+    "id": "test-case-to-verify-successful-login-and-identify-main-dashboard-of-web-page",
+    "keyword": "Feature",
+    "uri": "src/main/feature/LoginCase.feature"
+  }
+]
